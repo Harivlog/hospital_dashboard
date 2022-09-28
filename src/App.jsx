@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
-import {Blog, LogOut , Blogdetail} from './pages/pages'
+import {Blog, LogOut , Blogdetail, EditBlog, PatientDashboard} from './pages/pages'
 import Settings from './pages/Settings'
 
 function App() {
@@ -17,7 +17,9 @@ function App() {
        <div className="">
          {/* <LogOut/> */}
          {/* <Blog/> */}
-         <Blogdetail/>
+         {/* <Blogdetail/> */}
+         {/* <EditBlog/> */}
+         <PatientDashboard/>
        </div>
        </div>
     </div>

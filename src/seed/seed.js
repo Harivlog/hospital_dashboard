@@ -138,3 +138,118 @@ export const Postcategoies = [
       
     },
 ]
+export const DoctorAppointment = [
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ebuka Kelechi',
+        file : 'Transcend',
+        time : '5:00AM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ebuka Kelechi',
+        file : 'Transcend',
+        time : '5:00AM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        
+
+    },
+    
+]

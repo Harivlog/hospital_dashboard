@@ -68,53 +68,53 @@ const Blogdetail = () => {
                         </div>
 
                     </div>
-                   <div className="my-6">
-                    <h3 className='font-light mb-3'>Comment</h3>
-                    <div className="shadow-lg rounded-lg p-3">
-                    <div className="flex my-6 ">
-                            <div className="w-[15%] pr-4 flex justify-end ">
+                    <div className="my-6">
+                        <h3 className='font-light mb-3'>Comment</h3>
+                        <div className="shadow-lg rounded-lg p-3">
+                            <div className="flex my-6 ">
+                                <div className="w-[15%] pr-4 flex justify-end ">
 
-                                <img className='w-[2rem] h-[2rem]' src="/public/assets/images/user8.png" alt="user" />
-                            </div>
-                            <div className="">
-                               <div className="mb-3">
-                               <h3 className='text-xl font-Montserrat font-medium text-black-2'>Chad Alexander</h3>
-                                <p className='text-gray-5 text-sm font-light'>May 24, 2020</p>
-                               
-                               </div>
-                               <p className='text-gray-5 text-sm font-light'>A variation on the question technique above, the multiple-choice question great way to engage your reader.</p>
-                               <div className="flex gap-2 my-2">
-                                <img src="/public/assets/icons/leftArrow.png" alt="" />
-                                <p className='text-text-primary text-sm font-medium'>Reply</p>
-                               </div>
+                                    <img className='w-[2rem] h-[2rem]' src="/public/assets/images/user8.png" alt="user" />
+                                </div>
+                                <div className="">
+                                    <div className="mb-3">
+                                        <h3 className='text-xl font-Montserrat font-medium text-black-2'>Chad Alexander</h3>
+                                        <p className='text-gray-5 text-sm font-light'>May 24, 2020</p>
 
+                                    </div>
+                                    <p className='text-gray-5 text-sm font-light'>A variation on the question technique above, the multiple-choice question great way to engage your reader.</p>
+                                    <div className="flex gap-2 my-2">
+                                        <img src="/public/assets/icons/leftArrow.png" alt="" />
+                                        <p className='text-text-primary text-sm font-medium'>Reply</p>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                   </div>
-                   <div className="my-3">
-                   <h3 className='font-light mb-3'>Leave a Comment</h3>
-                   <div className="shadow-lg rounded-lg p-5">
-                      <div className="flex gap-3 mb-5">
-                      <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
-                      <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
-                      </div>
-                      <div className="w-[49%] mb-5">
-                      <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
-                      </div>
-                      <div className="">
-                      <textarea type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
-                      </div>
-                      <div className="flex">
-                      <input type="checkbox" className=' w-5 py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
-                      <label htmlFor="" className='pl-3 my-3 text-sm font-light text-black-2'>Save my name, email, and website in this browser for the next time I comment.</label>
-                      </div>
-                      <div className="my-3">
-                        <button className='rounded-md bg-text-primary text-white py-[0.5rem] px-5'>Post Comment</button>
-                      </div>
-                   </div>
+                    <div className="my-3">
+                        <h3 className='font-light mb-3'>Leave a Comment</h3>
+                        <div className="shadow-lg rounded-lg p-5">
+                            <div className="flex gap-3 mb-5">
+                                <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
+                                <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
+                            </div>
+                            <div className="w-[49%] mb-5">
+                                <input type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
+                            </div>
+                            <div className="">
+                                <textarea type="text" className='placeholder:text-sm w-[100%] py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
+                            </div>
+                            <div className="flex">
+                                <input type="checkbox" className=' w-5 py-1 px-3 border-2 border-gray-3 rounded-md outline-none' placeholder='Placeholder' />
+                                <label htmlFor="" className='pl-3 my-3 text-sm font-light text-black-2'>Save my name, email, and website in this browser for the next time I comment.</label>
+                            </div>
+                            <div className="my-3">
+                                <button className='rounded-md bg-text-primary text-white py-[0.5rem] px-5'>Post Comment</button>
+                            </div>
+                        </div>
 
-                   </div>
+                    </div>
                 </div>
                 <div className="">
                     <RecentPost />
