@@ -4,4 +4,6 @@ export {default as Blog} from './Blog.jsx';
 export {default as Blogdetail} from './Blogdetail';
 export {default as EditBlog} from './EditBlog'
 export {default as PatientDashboard} from './PatientDashboard'
+export {default as Doctors} from './Doctors'
+export {default as AdminRoles} from './AdminRoles'
 

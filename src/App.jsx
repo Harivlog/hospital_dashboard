@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
-import {Blog, LogOut , Blogdetail, EditBlog, PatientDashboard} from './pages/pages'
+import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles } from './pages/pages'
 import Settings from './pages/Settings'
 
 function App() {
@@ -11,17 +11,24 @@ function App() {
 
   return (
     <div className="App p-3 flex gap-3">
-       <SideBar/>
-       <div className="w-[80%]">
-       <SearchBar/>
-       <div className="">
-         {/* <LogOut/> */}
-         {/* <Blog/> */}
-         {/* <Blogdetail/> */}
-         {/* <EditBlog/> */}
-         <PatientDashboard/>
-       </div>
-       </div>
+      <SideBar />
+      <div className="w-[80%]">
+        <SearchBar />
+        <div className="">
+          {/* <LogOut/> */}
+          {/* <Blog/> */}
+          {/* <Blogdetail/> */}
+          {/* <EditBlog/> */}
+          {/* <PatientDashboard/> */}
+          {/* <Doctors/> */}
+          <AdminRoles/>
+
+         
+
+        
+
+        </div>
+      </div>
     </div>
   )
 }

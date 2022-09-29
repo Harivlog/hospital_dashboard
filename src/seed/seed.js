@@ -143,6 +143,8 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Family Doctor',
+        
         
 
     },
@@ -150,6 +152,42 @@ export const DoctorAppointment = [
         name : 'Dr. Ebuka Kelechi',
         file : 'Transcend',
         time : '5:00AM',
+        doctor : 'Heart Surgeon'
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        doctor : 'Health Specialist',
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Dr. Ibrahim Yekeni',
+        file : 'Malaria Infection Treatment',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -157,6 +195,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -164,41 +203,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
-        
-
-    },
-    {
-        name : 'Dr. Ibrahim Yekeni',
-        file : 'Malaria Infection Treatment',
-        time : '2:00PM',
-        
-
-    },
-    {
-        name : 'Dr. Ibrahim Yekeni',
-        file : 'Malaria Infection Treatment',
-        time : '2:00PM',
-        
-
-    },
-    {
-        name : 'Dr. Ibrahim Yekeni',
-        file : 'Malaria Infection Treatment',
-        time : '2:00PM',
-        
-
-    },
-    {
-        name : 'Dr. Ibrahim Yekeni',
-        file : 'Malaria Infection Treatment',
-        time : '2:00PM',
-        
-
-    },
-    {
-        name : 'Dr. Ibrahim Yekeni',
-        file : 'Malaria Infection Treatment',
-        time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -206,6 +211,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ebuka Kelechi',
         file : 'Transcend',
         time : '5:00AM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -213,6 +219,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -220,6 +227,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -227,6 +235,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -234,6 +243,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -241,6 +251,7 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
@@ -248,8 +259,70 @@ export const DoctorAppointment = [
         name : 'Dr. Ibrahim Yekeni',
         file : 'Malaria Infection Treatment',
         time : '2:00PM',
+        doctor : 'Health Specialist'
         
 
     },
     
+]
+export const AdminRolesData = [
+    {
+        name : 'Management',
+        assignedto : ['Administrator', ],
+        date : '14 Apr 2021, 8:43 PM',
+         
+    },
+    {
+        name : 'Manage Billing & Roles',
+        assignedto : ['Administrator', 'Manager'],
+        date : '16 Sep 2021, 5:20 PM',
+         
+    },
+    {
+        name : 'Add & Remove Users',
+        assignedto : ['Administrator'],
+        date : '14 Oct 2021, 10:20 AM',
+         
+    },
+    {
+        name : 'Project Planning',
+        assignedto : ['Administrator', 'User'],
+        date : '14 May 2021, 12:10 PM',
+         
+    },
+    {
+        name : 'Manage Email Sequences',
+        assignedto : ['Administrator', 'User', 'Support'],
+        date : '23 Aug 2021, 2:00 PM',
+         
+    },
+    {
+        name : 'Client Communication',
+        assignedto :['Administrator', 'User', 'Support'],
+        date : '15 Apr 2021, 11:30 AM',
+         
+    },
+    {
+        name : 'Only View',
+        assignedto : ['Administrator', 'Restricted User'],
+        date : '04 Dec 2021, 8:15 PM',
+         
+    },
+    {
+        name : 'Financial Management',
+        assignedto : ['Administrator', 'Support'],
+        date : '25 Feb 2021, 10:30 AM',
+         
+    },{
+        name : 'Manage Others’ Tasks',
+        assignedto : ['Administrator', 'Manager'],
+        date : '04 Nov 2021, 11:45 AM',
+         
+    },
+    {
+        name : 'Delete Own Tasks',
+        assignedto : ['Administrator', 'Manager','User','Support'],
+        date : '28 Aug 2021, 9:45 PM',
+         
+    },
 ]
