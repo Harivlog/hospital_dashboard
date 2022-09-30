@@ -326,3 +326,34 @@ export const AdminRolesData = [
          
     },
 ]
+
+export const Rolesdata = [
+    {
+        name : 'User Management',
+    },
+    {
+        name : 'Content Management',
+    },
+    {
+        name : 'Financial Management',
+    },
+    {
+        name : 'Reporting',
+    },
+    {
+        name : 'Payroll',
+    },
+    {
+        name : 'Disputes Management',
+    },{
+        name : 'API Controls',
+    },
+    {
+        name : 'Database Management',
+    },
+    {
+        name : 'Repository Management',
+    },
+    
+
+]

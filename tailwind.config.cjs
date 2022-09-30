@@ -31,8 +31,14 @@ module.exports = {
         'text-red-1': '#F80D38',
         'black-1' : '#343434' ,
         'black-2' : '#5E5873',
-        
+        'black-3' : 'rgba(0,0,0,0.2)',
+        'black-4' : '#82868B',
+
+        'linear-gradient' : 'rgba(255, 159, 67, 0.16)  0%rgba(255, 255, 255, 0)  71.66%',
         'text-primary-black-1': '#343434',
+        'yellow-1' : '#ff9f431f',
+        'yellow-2' : '#FF9F43',
+        'yellow-3' : '#e97b1429',
         
       },
     },

@@ -23,3 +23,8 @@ input[type ='file']{
 
     outline: 1px solid #D3D3D3;
 }
+.linear-gradient{
+   background-color:  linear-gradient(  rgba(255, 159, 67, 0.16)  0%
+rgba(255, 255, 255, 0)  71.66%);
+color : #e97b1429
+}
