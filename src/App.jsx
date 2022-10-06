@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
-import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles } from './pages/pages'
+import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage } from './pages/pages'
 import Settings from './pages/Settings'
 
 function App() {
@@ -21,10 +21,10 @@ function App() {
           {/* <EditBlog/> */}
           {/* <PatientDashboard/> */}
           {/* <Doctors/> */}
-          <AdminRoles/>
-  
-         
-
+          {/* <AdminRoles/> */}
+          {/* <AdminRolesMain/> */}
+           <ChatPage/>
+          
         
 
         </div>

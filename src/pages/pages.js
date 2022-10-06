@@ -7,4 +7,5 @@ export {default as PatientDashboard} from './PatientDashboard'
 export {default as Doctors} from './Doctors'
 export {default as AdminRoles} from './AdminRoles'
 export {default as AdminRolesMain} from './AdminRolesMain'
+export {default as ChatPage} from './ChatPage'
 

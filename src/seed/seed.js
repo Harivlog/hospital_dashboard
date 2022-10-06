@@ -357,3 +357,139 @@ export const Rolesdata = [
     
 
 ]
+export const RolesList = [
+    {
+        totalUser : 'Total 4 users',
+        title : 'Administrator',
+        
+        user : '/assets/images/users1.png'
+    },
+    {
+        totalUser : 'Total 4 users',
+        title : 'Manager',
+        
+        user : '/assets/images/users2.png'
+    },
+    {
+        totalUser : 'Total 4 users',
+        title : 'Users',
+        
+        user : '/assets/images/users3.png'
+    },
+    {
+        totalUser : 'Total 4 users',
+        title : 'Support',
+        
+        user : '/assets/images/users4.png'
+    },
+    {
+        totalUser : 'Total 4 users',
+        title : 'Restricted User',
+        
+        user : '/assets/images/users5.png'
+    },
+   
+]
+
+export const AdminRolesMainData = [
+    {
+        img : '/assets/images/user9.png',
+        username : 'Myra Foster',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/maintainer.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Active',
+    },
+    {
+        img : '/assets/images/user10.png',
+        username : 'Sweden',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/user.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Pending',
+    },
+    {
+        img : '/assets/images/user11.png',
+        username : 'Matilda Robertson',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/redIcon.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Inactive',
+    },
+    {
+        img : '/assets/images/user12.png',
+        username : 'French Southern Territories',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/pen.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Inactive',
+    },
+    {
+        img : '/assets/images/user13.png',
+        username : 'Martha Barnes',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/user.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Pending',
+    },
+    {
+        img : '/assets/images/user14.png',
+        username : 'Monaco',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/maintainer.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Active',
+    },
+    {
+        img : '/assets/images/user15.png',
+        username : 'Minnie Hoffman',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/maintainer.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Active',
+    },
+    {
+        img : '/assets/images/user16.png',
+        username : 'Lawrence Walton',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/orangeSetting.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Inactive',
+    },
+    {
+        img : '/assets/images/user17.png',
+        username : 'Mable Fernandez',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/user.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Active',
+    },
+    {
+        img : '/assets/images/user18.png',
+        username : 'Gregory Maldonado',
+        email : 'wiwlirug@talgajup.co.uk',
+        role : 'Maintainer',
+        roleIcon : '/public/assets/icons/orangeSetting.png',
+        plan : 'Enterprise',
+        billing : 'Auto Debit',
+        status : 'Pending',
+    },
+]
