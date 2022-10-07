@@ -8,4 +8,8 @@ export {default as Doctors} from './Doctors'
 export {default as AdminRoles} from './AdminRoles'
 export {default as AdminRolesMain} from './AdminRolesMain'
 export {default as ChatPage} from './ChatPage'
+export {default as LoginPage} from './LoginPage'
+export {default as HospitalsPackage} from './HospitalsPackage'
+export {default as Facilities} from './Facilities'
+
 

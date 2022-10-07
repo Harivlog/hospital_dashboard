@@ -21,6 +21,7 @@ module.exports = {
         'gray-6' : '#EBE9F1',
         "gray-7" :"#F3F2F7",
         'white' : '#ffffff',
+        'indigo-1' : '#7367F0',
         // text colors
         'text-1': '#343434',
         'text-primary': '#23B9F4',

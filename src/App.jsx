@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
-import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage } from './pages/pages'
+import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage, LoginPage, HospitalsPackage, Facilities } from './pages/pages'
 import Settings from './pages/Settings'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <div className="">
     <div className="App p-3 flex gap-3">
       <SideBar />
       <div className="w-[80%]">
@@ -23,12 +24,13 @@ function App() {
           {/* <Doctors/> */}
           {/* <AdminRoles/> */}
           {/* <AdminRolesMain/> */}
-           <ChatPage/>
-          
-        
-
+           {/* <ChatPage/> */}
+        {/* <HospitalsPackage/> */}
+          <Facilities/>
         </div>
       </div>
+    </div>
+      {/* <LoginPage/> */}
     </div>
   )
 }

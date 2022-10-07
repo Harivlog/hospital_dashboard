@@ -265,6 +265,70 @@ export const DoctorAppointment = [
     },
     
 ]
+export const facilityData = [
+    {
+        name : 'Vedic Lifecare Hospital',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Family Doctor',
+        
+        
+
+    },
+    {
+        name : 'Evercare Hospital',
+        file : 'Multispecialist Hospital',
+        time : '5:00AM',
+        doctor : 'Heart Surgeon'
+
+    },
+    {
+        name : 'Cedercress Hospital',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Health Specialist',
+
+    },
+    {
+        name : 'Sameda Clinic',
+        file : 'Fertility Center',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Reddington Hospital',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Lagoon Hospitals',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+
+    },
+    {
+        name : 'Duchess International Hospital',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+        
+
+    },
+    {
+        name : 'St Nicholas Hospital',
+        file : 'Multispecialist Hospital',
+        time : '2:00PM',
+        doctor : 'Health Specialist'
+        
+
+    },
+    
+    
+]
 export const AdminRolesData = [
     {
         name : 'Management',
@@ -491,5 +555,32 @@ export const AdminRolesMainData = [
         plan : 'Enterprise',
         billing : 'Auto Debit',
         status : 'Pending',
+    },
+]
+
+export const HospitalsPackageData = [
+    {
+        img : '/public/assets/images/blog1.png',
+        title : 'Vedic Lifecare Hospital',
+        views : '76',
+
+    },
+    {
+        img : '/public/assets/images/blog1.png',
+        title : 'Vedic Lifecare Hospital',
+        views : '76',
+
+    },
+    {
+        img : '/public/assets/images/blog1.png',
+        title : 'Vedic Lifecare Hospital',
+        views : '76',
+
+    },
+    {
+        img : '/public/assets/images/blog1.png',
+        title : 'Vedic Lifecare Hospital',
+        views : '76',
+
     },
 ]
