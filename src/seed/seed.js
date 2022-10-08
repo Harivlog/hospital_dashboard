@@ -584,3 +584,109 @@ export const HospitalsPackageData = [
 
     },
 ]
+export const servicesData = [
+    {
+        serviceName : 'Pediatrics',
+    },
+    {
+        serviceName : 'Cardiology',
+    },
+    {
+        serviceName : 'Nephrology',
+    },
+    {
+        serviceName : 'Orthopedic',
+    },
+    {
+        serviceName : 'General Medicine',
+    },
+    {
+        serviceName : 'Physiotherapy',
+    },
+    {
+        serviceName : 'Internal Medicine',
+    },
+    {
+        serviceName : 'Psychology/Psychiatry',
+    },
+    {
+        serviceName : 'Surgery',
+    },
+    {
+        serviceName : 'Urology',
+    },
+    {
+        serviceName : 'Gynaecology',
+    },
+    {
+        serviceName : 'Pediatrics',
+    },
+
+]
+
+export const chatData = [{
+    name : 'Dr. Ibrahim Yekeni',
+    specialist : 'Family Doctor',
+    duration : '3 min ago',
+    status : 'online',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '0'
+
+},
+{
+    name : 'Dr. Ebuka Kelechi',
+    specialist : 'Heart Surgeon',
+    duration : '10 min ago',
+    status : 'online',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '5'
+},
+{
+    name : 'Dr. Kemi Olowojeje',
+    specialist : 'Health Specialist',
+    duration : '30 min ago',
+    status : 'online',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '0'
+},
+{
+    name : 'Dr. Michael Stwart',
+    specialist : 'Heart Surgeon',
+    duration : '1 hour',
+    status : 'online',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '1'
+},
+{
+    name : 'Dr. Scut Tom',
+    specialist : 'Health Specialist',
+    duration : '2 hour ago',
+    status : 'online',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '0'
+},
+{
+    name : 'Dr. Amina Ahmed',
+    specialist : 'Health Counsellor',
+    duration : '4 hour ago',
+    status : 'offline',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '2'
+},
+{
+    name : 'Dr. Banabas Paul',
+    specialist : 'General Care',
+    duration : '2 days ago',
+    status : 'offline',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '1'
+},
+{
+    name : 'Dr. Banabas Paul',
+    specialist : 'General Care',
+    duration : '2 days ago',
+    status : 'offline',
+    img : '/public/assets/icons/img.png',
+    numberogMessage : '1'
+},
+]

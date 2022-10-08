@@ -33,3 +33,13 @@ input[type ='file']{
 rgba(255, 255, 255, 0)  71.66%);
 color : #e97b1429
 }
+
+.status::before{
+   position: absolute;
+   content: '';
+   top: -200; 
+   left: 0;
+   width: 10px;
+   height: 10px;
+   background: #000;
+}

@@ -26,7 +26,7 @@ const SearchBar = () => {
                 
             </div>
             <div className="">
-                <h3 className='text-black font-bold leading-5 text-black-1'>{adminUser.name}</h3>
+                <h3 className=' font-bold leading-5 text-black-1'>{adminUser.name}</h3>
                 <p className='text-sm text-text-primary'>{adminUser.title}</p>
             </div>
         </div>
