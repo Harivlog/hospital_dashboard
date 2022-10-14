@@ -13,5 +13,6 @@ export {default as HospitalsPackage} from './HospitalsPackage'
 export {default as Facilities} from './Facilities'
 export {default as HospitalPackageEdit} from './HospitalPackageEdit'
 export {default as EditFacilities} from './EditFacilities'
-
+export {default as CalendarPage} from './CalendarPage'
+export {default as AdminPage} from './AdminPage'
 

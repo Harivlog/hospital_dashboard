@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
-import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage, LoginPage, HospitalsPackage, Facilities ,HospitalPackageEdit,EditFacilities} from './pages/pages'
+import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage, LoginPage, HospitalsPackage, Facilities ,HospitalPackageEdit,EditFacilities,CalendarPage,AdminPage} from './pages/pages'
 import Settings from './pages/Settings'
 
 function App() {
@@ -24,11 +24,13 @@ function App() {
           {/* <Doctors/> */}
           {/* <AdminRoles/> */}
           {/* <AdminRolesMain/> */}
-           <ChatPage/>
+           {/* <ChatPage/> */}
         {/* <HospitalsPackage/> */}
           {/* <Facilities/> */}
           {/* <HospitalPackageEdit/> */}
           {/* <EditFacilities/> */}
+          {/* <CalendarPage/> */}
+          <AdminPage/>
         </div>
       </div>
     </div>

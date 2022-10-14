@@ -46,36 +46,7 @@ const PatientDashboard = () => {
                         <button className="border-2 border-gray-3 py-[0.55rem] font-semibold rounded-r-md w-[6rem] text-xs hover:bg-text-red-1 hover:text-white hover:border-0">MONTH</button>
                     </div>
                 </div>
-                {/* <div className="rounded-lg p-5 ">
-                    <ul>
-                    {
-                        DoctorAppointment.map((items , index)=>(
-                          <li key={index} className="flex">
-                            <div className="">
-                                <img src="" alt="" />
-                            </div>
-                            <div className="">
-                            {items.name}
-                            </div>
-                            <div className="">
-                                {items.file}
-                            </div>
-                            <div className="">
-                            {items.time}
-
-                            </div>
-                            <div className="">
-                                <button>VIEW RESULT</button>
-
-                            </div>
-                            <div className="">
-                               <p>...</p>
-                            </div>
-                            </li>
-                        ))
-                    }
-                    </ul>
-                </div> */}
+                
                 <div className="flex flex-col">
             <div className="overflow-x-auto">
                 <div className="p-1.5 w-full inline-block align-middle">

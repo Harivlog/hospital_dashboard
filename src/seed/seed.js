@@ -690,3 +690,219 @@ export const chatData = [{
     numberogMessage : '1'
 },
 ]
+
+export const chatMessage = [
+    {
+        duration : '1 WEEK AGO',
+        message : "Hi Mrs Boluwatife,Please send the images as discussed on your last visit",
+        time : 'DOC   28 min ago',
+        key : "other",
+        img : '/public/assets/icons/img.png',
+    },
+    {
+        duration : '1 WEEK AGO',
+        message : "Hi Doc. Here are the images. Sorry for coming late though",
+        time : 'DOC   28 min ago',
+        key : "me",
+        
+        img : '/public/assets/icons/img.png',
+    },
+    {
+        duration : '1 WEEK AGO',
+        message : "THANKS! I’ll review them and then get back to you ASAP!",
+        time : 'DOC   28 min ago',
+        key : "other",
+
+        img : '/public/assets/icons/img.png',
+    },
+    {
+        duration : '1 WEEK AGO',
+        message : "THANKS! I’ll review them and then get back to you ASAP!",
+        time : 'DOC   28 min ago',
+        key : "other",
+
+        img : '/public/assets/icons/img.png',
+    },
+   
+    {
+        duration : '1 WEEK AGO',
+        message : "Hi Doc. Here are the images. Sorry for coming late though",
+        time : 'DOC   28 min ago',
+        key : "me",
+        
+        img : '/public/assets/icons/img.png',
+    },
+]
+export const calendarData = [
+    {
+      id: 0,
+      title: "All Day Event very long title",
+      allDay: true,
+      start: new Date(2015, 3, 0),
+      end: new Date(2015, 3, 1)
+    },
+    {
+      id: 1,
+      title: "Long Event",
+      start: new Date(2015, 3, 7),
+      end: new Date(2015, 3, 10)
+    },
+  
+    {
+      id: 2,
+      title: "DTS STARTS",
+      start: new Date(2016, 2, 13, 0, 0, 0),
+      end: new Date(2016, 2, 20, 0, 0, 0)
+    },
+  
+    {
+      id: 3,
+      title: "DTS ENDS",
+      start: new Date(2016, 10, 6, 0, 0, 0),
+      end: new Date(2016, 10, 13, 0, 0, 0)
+    },
+  
+    {
+      id: 4,
+      title: "Some Event",
+      start: new Date(2015, 3, 9, 0, 0, 0),
+      end: new Date(2015, 3, 9, 0, 0, 0)
+    },
+    {
+      id: 5,
+      title: "Conference",
+      start: new Date(2015, 3, 11),
+      end: new Date(2015, 3, 13),
+      desc: "Big conference for important people"
+    },
+    {
+      id: 6,
+      title: "Meeting",
+      start: new Date(2015, 3, 12, 10, 30, 0, 0),
+      end: new Date(2015, 3, 12, 12, 30, 0, 0),
+      desc: "Pre-meeting meeting, to prepare for the meeting"
+    },
+    {
+      id: 7,
+      title: "Lunch",
+      start: new Date(2015, 3, 12, 12, 0, 0, 0),
+      end: new Date(2015, 3, 12, 13, 0, 0, 0),
+      desc: "Power lunch"
+    },
+    {
+      id: 8,
+      title: "Meeting",
+      start: new Date(2015, 3, 12, 14, 0, 0, 0),
+      end: new Date(2015, 3, 12, 15, 0, 0, 0)
+    },
+    {
+      id: 9,
+      title: "Happy Hour",
+      start: new Date(2015, 3, 12, 17, 0, 0, 0),
+      end: new Date(2015, 3, 12, 17, 30, 0, 0),
+      desc: "Most important meal of the day"
+    },
+    {
+      id: 10,
+      title: "Dinner",
+      start: new Date(2015, 3, 12, 20, 0, 0, 0),
+      end: new Date(2015, 3, 12, 21, 0, 0, 0)
+    },
+    {
+      id: 11,
+      title: "Birthday Party",
+      start: new Date(2015, 3, 13, 7, 0, 0),
+      end: new Date(2015, 3, 13, 10, 30, 0)
+    },
+    {
+      id: 12,
+      title: "Late Night Event",
+      start: new Date(2015, 3, 17, 19, 30, 0),
+      end: new Date(2015, 3, 18, 2, 0, 0)
+    },
+    {
+      id: 13,
+      title: "Multi-day Event",
+      start: new Date(2015, 3, 20, 19, 30, 0),
+      end: new Date(2015, 3, 22, 2, 0, 0)
+    },
+    {
+      id: 14,
+      title: "Today",
+      start: new Date(new Date().setHours(new Date().getHours() - 3)),
+      end: new Date(new Date().setHours(new Date().getHours() + 3))
+    }
+  ];
+  export const UpcomingAppointment = [
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Ibrahim Yekeni',
+        title : 'Emergency',
+        date : 'Tuesday, October 24',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Ebuka Kelechi',
+        title : 'Examination',
+        date : 'Monday, November 2',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Bridget Olowojeje',
+        title : 'Consultation',
+        date : 'Friday, November 1',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Michael Stwart',
+        title : 'Routine Checkup',
+        date : 'Thursday, December 9',
+    },
+  ]
+  export const PreviusAppointment = [
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Scut Tom',
+        title : 'SICK VISIT',
+        date : 'Friday, August 11',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Amina Ahmed',
+        title : 'Consultation',
+        date : 'Tuesday, July 30',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Ibrahim Yekeni',
+        title : 'Examination',
+        date : 'Wednesday, July 12',
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Banabas Paul',
+        title : 'Emergency',
+        date : 'Monday, June 14',
+    },
+  ]
+  export const DoctorsAdmin = [
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Ibrahim Yekeni',
+        role : 'Heart Surgeon',
+        bookedAppointment : 66,
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Ebuka Kelechi',
+        role : 'Health Specialist',
+        bookedAppointment : 66,
+    },
+    {
+        img : '/public/assets/icons/img.png',
+        doctorName : 'Dr. Bridget Olowojeje',
+        role : 'Family Doctor',
+        bookedAppointment : 66,
+    },
+
+  ]

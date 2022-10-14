@@ -9,10 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.5",
+    "@devexpress/dx-react-scheduler": "^3.0.5",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.5",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/react": "^5.11.2",
+    "apexcharts": "^3.35.5",
+    "chart.js": "^3.9.1",
+    "date-fns": "^2.29.3",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-big-calendar": "^1.5.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
     "react-quill": "^2.0.0",
-    "react-router-dom": "^6.4.1"
+    "react-router-dom": "^6.4.1",
+    "react-simple-maps": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

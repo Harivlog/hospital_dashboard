@@ -22,6 +22,7 @@ module.exports = {
         "gray-7" :"#F3F2F7",
         "gray-8" :"#C5C5C5",
         "gray-9" : "#ECECEC",
+        "gray-10" : "#F2F2F2",
         
         'white' : '#ffffff',
         'indigo-1' : '#7367F0',
@@ -32,6 +33,7 @@ module.exports = {
          'blue-2' : 'rgba(0, 207, 232, 0.12)',
          'blue-3' : '#2F80ED',
          'blue-4' : '#2D9CDB',
+         'blue-5' : '#05B1F3',
 
          'dark-blue' : 'rgba(115, 103, 240, 0.12)',
         'text-red-1': '#F80D38',
@@ -40,15 +42,18 @@ module.exports = {
         'black-3' : 'rgba(0,0,0,0.2)',
         'black-4' : '#82868B',
         'black-5' : '#606060',
+        'black-6' : '#00060C',
 
         'linear-gradient' : 'rgba(255, 159, 67, 0.16)  0%rgba(255, 255, 255, 0)  71.66%',
         'text-primary-black-1': '#343434',
         'yellow-1' : '#ff9f431f',
         'yellow-2' : '#FF9F43',
         'yellow-3' : '#e97b1429',
-        
+        'yellow-4' : '#FECA57',
       },
     },
   },
-  plugins: [],
+  plugins: [ 
+    // require('tailwind-scrollbar')
+  ],
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { chatData } from '../seed/seed'
+import { chatData, chatMessage } from '../seed/seed'
 
 const ChatPage = () => {
   return (
@@ -31,16 +31,16 @@ const ChatPage = () => {
               </li>
             ))
           }
-         <div className=" py-5 px-3">
-         <div className=" border border-gray-2 bg-white flex   py-3 px-3 rounded-xl font-normal">
+          <div className=" py-5 px-3">
+            <div className=" border border-gray-2 bg-white flex   py-3 px-3 rounded-xl font-normal">
 
 
-<img className='w-4 h-4' src="/assets/icons/search.svg" alt="" />
+              <img className='w-4 h-4' src="/assets/icons/search.svg" alt="" />
 
 
-<input className='w-full outline-none ml-1 text-xs placeholder:text-black-5' type="text" placeholder='Search doctor or medical department' />
-</div>
-         </div>
+              <input className='w-full outline-none ml-1 text-xs placeholder:text-black-5' type="text" placeholder='Search doctor or medical department' />
+            </div>
+          </div>
         </ul>
 
         <div className="relative w-[70%]">
@@ -53,12 +53,31 @@ const ChatPage = () => {
               <div className="ml-1">
                 <h2 className='text-sm text-text-1 font-semibold'>Dr. Ibrahim Yekeni</h2>
                 <p className='text-xs  font-medium'>Active 50 min ago</p>
-
               </div>
             </div>
             <div className="cursor-pointer">
               <img src="/public/assets/icons/threeDots.png" alt="dots" />
             </div>
+          </div>
+          <div className="p-3 snap-y scroll-auto overflow-y-auto scroll-pr-3 h-[65vh]">
+            {
+              chatMessage.map((items, index) => (
+                <div key={index}  className={` flex ${items.key == 'me' ? 'justify-end' : ''}`}>
+                  <div className={`flex items-center ${items.key == 'me' ? 'flex-row-reverse' : ''}`}>
+                    <div ><img className='w-7 h-7' src={items.img} alt="otherUser" /></div>
+                    <div className="w-[60%]">
+                      <div className="p-4 rounded-full w-full bg-gray-10">
+                        <p className='text-sm text-text-1'>{items.message}</p>
+
+                      </div>
+                      <div className={`flex ${items.key == 'me' ? 'justify-start' : 'justify-end'}  py-2`}>
+                        <p className='text-[0.60rem]'>{items.time}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))
+            }
           </div>
           <div className="border-t border-gray-3 absolute bottom-0 left-0 flex justify-between items-center w-full">
             <div className="flex py-5  px-3  gap-2 items-center">
