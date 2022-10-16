@@ -13,7 +13,7 @@ const SideBar = () => {
   {
            toggle ? 
            <>
-         <aside className="w-64 h-[53.3rem] bg-gray-1 rounded-3xl relative" aria-label="Sidebar">
+         <aside className="w-64 2xl:w-96 h-screen bg-gray-1 rounded-3xl relative" aria-label="Sidebar">
             <div className="overflow-y-auto py-4   rounded dark:bg-gray-800">
                <ul className="space-y-2">
                   <li className='flex justify-center items-center mb-4'>
@@ -25,10 +25,10 @@ const SideBar = () => {
                   {
                      MenuData.map((menu, index) => (
                         <li key={index} className="px-3 py-1  hover:bg-gray-hover  hover:text-text-primary hover:font-bold">
-                           <a href="#" className="flex items-center p-2 text-base  text-gray-900 rounded-lg   ">
+                           <Link to={menu.links} className="flex items-center p-2 text-base  text-gray-900 rounded-lg  hover:text-text-primary ">
                               <img className='w-6 h-6' src={menu.img} alt="overview" />
                               <p className='px-5'>{menu.title}</p>
-                           </a>
+                           </Link>
                         </li>
                      ))
                   }
@@ -40,11 +40,11 @@ const SideBar = () => {
 
                   {
                      Account.map((menu, index) => (
-                        <li key={index} className="px-3 py-1 hover:bg-gray-hover  hover:text-text-primary hover:font-bold">
-                           <a href="#" className="flex items-center p-2 text-base hover:font-bold text-gray-900 rounded-lg dark:text-white hover:bg-gray-100  dark:hover:bg-gray-700">
+                        <li key={index} className="px-3 py-1  hover:bg-gray-hover   hover:font-bold">
+                           <Link to={menu.links} className="flex items-center p-2 text-base  text-gray-900 rounded-lg hover:text-text-primary">
                               <img className='w-6 h-6' src={menu.img} alt="overview" />
                               <p className='px-5'>{menu.title}</p>
-                           </a>
+                           </Link>
                         </li>
                      ))
                   }
@@ -66,18 +66,18 @@ const SideBar = () => {
            <div className="flex flex-col items-center mt-2 border-t border-gray-300">
               {
                  MenuData.map((items, index) => (
-                    <a className='my-5' key={index} href="/">
+                    <Link className='my-5' key={index} to={items.links}>
                        <img className='w-6 h-6' src={items.img} alt="sidebarIcons" />
-                    </a>
+                    </Link>
                  ))
               }
            </div>
            <div className="flex flex-col items-center mt-2 border-t border-gray-300">
               {
                  Account.map((items, index) => (
-                    <a className='my-5' key={index} href="/">
+                    <Link className='my-5' key={index} to={items.links}>
                        <img className='w-5 h-5' src={items.img} alt="sidebarIcons" />
-                    </a>
+                    </Link>
                  ))
               }
            </div>

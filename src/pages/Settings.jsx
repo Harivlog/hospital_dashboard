@@ -8,7 +8,7 @@ const Settings = () => {
                     <h3 className='text-text-red-1 text-xl font-bold'>Settings</h3>
 
                 </div>
-                <div className=" p-3  w-full h-[45rem] border border-gray-2 rounded-3xl py-8">
+                <div className=" p-3  w-full h-[82vh] border border-gray-2 rounded-3xl py-8">
                     <div className="flex mb-5">
                         <div className="w-[30%] flex justify-center">
                             <div className="w-36 h-36 rounded-full border-4 border-gray-border    bg-gray-dark flex justify-center items-center flex-col cursor-pointer">

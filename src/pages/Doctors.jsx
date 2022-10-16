@@ -52,10 +52,10 @@ const Doctors = () => {
                             <div key={index} className="border border-gray-2 w-[27%] rounded-lg px-5 p-t-0">
                                 <div className="w-full flex justify-center items-center flex-col">
                                     <div className="flex w-full justify-end">
-                                        <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" class="font-extrabold text-2xl mb-2 md:mb-0   hover:bg-text-primary-800 focus:ring-4 focus:outline-none focus:ring-text-primary-300  rounded-lg  px-5 py-2.5 text-center  ">...</button>
-                                        <div id="tooltip-bottom" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium  bg-gray-5 rounded-lg shadow-sm opacity-0 tooltip ">
+                                        <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" className="font-extrabold text-2xl mb-2 md:mb-0   hover:bg-text-primary-800 focus:ring-4 focus:outline-none focus:ring-text-primary-300  rounded-lg  px-5 py-2.5 text-center  ">...</button>
+                                        <div id="tooltip-bottom" role="tooltip" className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium  bg-gray-5 rounded-lg shadow-sm opacity-0 tooltip ">
                                             Tooltip on bottom
-                                            <div class="tooltip-arrow" data-popper-arrow></div>
+                                            <div className="tooltip-arrow" data-popper-arrow></div>
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-[7rem] items-center my-3">

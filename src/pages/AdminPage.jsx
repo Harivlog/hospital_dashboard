@@ -4,13 +4,13 @@ import { DonutChart, MixedChart, PatientDonatChart, RedarChart, Map, StackedChar
 import { UpcomingAppointment, DoctorsAdmin } from '../seed/seed'
 const AdminPage = () => {
   return (
-    <div className='font-Montserrat'>
+    <div className='font-Montserrat w-full'>
       <div className="my-3 ">
         <h3 className='text-blue-5 text-xl font-bold'>Welcome Joseph,
         </h3>
         <p className='text-black-1'>Super Admin</p>
       </div>
-      <div className="flex gap-3">
+      <div className="flex gap-3 w-full">
         <div className="grid grid-cols-3 gap-4 w-[70%] ">
           <div className="col-span-1 "><DonutChart /></div>
           <div className="col-span-1 "><PatientDonatChart /></div>

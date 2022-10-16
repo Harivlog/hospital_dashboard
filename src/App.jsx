@@ -5,6 +5,7 @@ import SideBar from './components/sidebar/SideBar'
 import SearchBar from './components/searchBar/SearchBar'
 import { Blog, LogOut, Blogdetail, EditBlog, PatientDashboard, Doctors, AdminRoles, AdminRolesMain, ChatPage, LoginPage, HospitalsPackage, Facilities ,HospitalPackageEdit,EditFacilities,CalendarPage,AdminPage,} from './pages/pages'
 import Settings from './pages/Settings'
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,22 +17,37 @@ function App() {
       <div className="w-full">
         <SearchBar />
         <div className="">
-          {/* <LogOut/> */}
-          {/* <Blog/> */}
+        <Routes>
+              <Route path="/" element={ <AdminPage/>} />
+              <Route path="/appointments" element={<CalendarPage/>} />
+              <Route path="/doctors" element={<Doctors/>} />
+              <Route path="/patients-dashboard" element={<PatientDashboard/>} />
+              <Route path="/chats" element={<ChatPage/>} />
+              <Route path="/blog" element={<Blog/>} />
+              <Route path="/hospital-package" element={<HospitalsPackage/>} />
+                <Route path="/facilities" element={<Facilities/>} />
+              <Route path="/admin-roles" element={<AdminRolesMain/>} />
+              <Route path="/blog" element={<Blog/>} />
+              <Route path="/settings" element={<Settings/>} />
+                     <Route path="/logout" element={<LogOut/>} />
+              <Route path="/settings" element={<Settings/>} />
+            </Routes>
+          
+          
           {/* <Blogdetail/> */}
-          <EditBlog/>
-          {/* <PatientDashboard/> */}
-          {/* <Doctors/> */}
-          {/* <AdminRoles/> */}
-          {/* <AdminRolesMain/> */}
-           {/* <ChatPage/> */}
-        {/* <HospitalsPackage/> */}
-          {/* <Facilities/> */}
+          {/* <EditBlog/> */}
+          
+          
+          
+          
+           
+        
+          
           {/* <HospitalPackageEdit/> */}
           {/* <EditFacilities/> */}
-          {/* <CalendarPage/> */}
-          {/* <AdminPage/> */}
-          {/* <Test/> */}
+          
+          {/*  */}
+          
         </div>
       </div>
     </div>
