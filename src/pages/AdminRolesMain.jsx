@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { RolesList, AdminRolesMainData } from '../seed/seed'
+import { Link } from 'react-router-dom'
 const day = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 const imgs = [
   { img: `${<img src="/public/assets/icons/externalLink.png" />}` }
 ]
-// "03252808791 hazi sajad"
 
-const AdminRolesMain = () => {
+
+
+
+const AdminRolesMain = () => { 
   return (
     <div className=' font-Montserrat m-4'>
       <div className="">
@@ -45,8 +48,8 @@ const AdminRolesMain = () => {
             <img src="/public/assets/images/Illustration.svg" alt="" />
           </div>
           <div className="">
-            <button className='ml-4 bg-text-primary py-2 px-3 text-white rounded-md  font-normal text-xs mb-2 '>Add New Role</button>
-            <p className='text-gray-5 text-xs'>Add role, if it does not exist.</p>
+            <Link to="admin-roles" className='ml-4 bg-text-primary py-2 px-3 text-white rounded-md  font-normal text-xs mb-2 '>Add New Role</Link>
+            <p className='text-gray-5 text-xs my-2'>Add role, if it does not exist.</p>
           </div>
         </div>
       </div>
@@ -81,8 +84,7 @@ const AdminRolesMain = () => {
 
                 <select className='text-text-primary placeholder:text-sm w-[100%] py-[0.38rem] px-3 border-2 border-text-primary rounded-md outline-none' name="" id="">
 
-                  <option className='peer-optional:text-gray-1' value="" label={`${imgs.img} Export`} >
-                  </option>
+                  <option className='peer-optional:text-gray-1' value="" label={` Export`} ></option>
                   <option value="">Offline</option>
 
                 </select>
@@ -96,7 +98,7 @@ const AdminRolesMain = () => {
                 <th scope="col" className="p-4">
                   <div className="flex items-center">
                     <input id="checkbox-all-search" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-all-search" className="sr-only">checkbox</label>
+                    <label htmlFor="checkbox-all-search" className="sr-only">checkbox</label>
                   </div>
                 </th>
                 <th scope="col" className="py-3 px-6">
@@ -122,7 +124,7 @@ const AdminRolesMain = () => {
             <tbody>
               {
                 AdminRolesMainData.map((items, index) => (
-                  <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                  <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                     <td className="pl-4 w-4">
                       <div className="flex items-center">
                         <input id="checkbox-table-search-1" type="checkbox" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
@@ -161,9 +163,16 @@ const AdminRolesMain = () => {
                     </td>
                     <td className="py-4 px-6">
                       <div className="flex items-center">
-                        <p className='text-sm'>
-                          {items.status}
-
+                        <p className={``}>
+                         {items.status === 'Pending' && <>
+                           <p className='text-sm  px-3 py-[0.20rem] rounded-2xl font-medium text-[#FF9F43] bg-[#ff9f431f]'>{items.status}</p>
+                         </>}
+                         {items.status === 'Active' && <>
+                           <p className='text-sm  px-3 py-[0.20rem] rounded-2xl font-medium text-[#28C76F] bg-[#28c76f1f]'>{items.status}</p>
+                         </>}
+                         {items.status === 'Inactive' && <>
+                           <p className='text-sm  px-3 py-[0.20rem] rounded-2xl font-medium bg-[#6c757d1f] text-[#82868B]'>{items.status}</p>
+                         </>}
                         </p>
                       </div>
                     </td>

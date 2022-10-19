@@ -42,7 +42,7 @@ const AdminRoles = () => {
       <div className="">
 
         <div className="overflow-x-auto relative shadow-md">
-          <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400 outline-gray-2   ">
+          <table className="w-full h-[78vh] text-sm text-left text-gray-500 dark:text-gray-400 outline-gray-2   ">
             <thead className="text-xs text-black-2 uppercase bg-gray-7 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                 <th scope="col" className="py-3 px-6">
@@ -68,8 +68,22 @@ const AdminRoles = () => {
                     <th scope="row" className="py-4 px-6 font-medium text-black-2 whitespace-nowrap dark:text-white">
                       {items.name}
                     </th>
-                    <td className="py-4 px-6">
-                      {items.assignedto}
+                    <td className="py-4 px-6 flex gap-2 ">
+                      {items.assignedto[0] === 'Administrator' && <>
+                      <p className='text-[#2F80ED] bg-[#7367f01f] py-1 px-2 rounded-2xl font-medium'>{items.assignedto[0]}</p>
+                      </>}
+                      {items.assignedto[1] === 'Manager' && <>
+                      <p className='text-[#FF9F43] bg-[#ff9f431f] py-1 px-2 rounded-2xl font-medium'>{items.assignedto[1]}</p>
+                      </>}
+                      {items.assignedto[2] === 'User' && <>
+                      <p className='text-[#28C76F] bg-[#28c76f1f] py-1 px-2 rounded-2xl font-medium'>{items.assignedto[2]}</p>
+                      </>}
+                      {items.assignedto[3] === 'Support' && <>
+                      <p className='text-[#00CFE8] bg-[#00cfe81f] py-1 px-2 rounded-2xl font-medium'>{items.assignedto[3]}</p>
+                      </>}
+                      {items.assignedto[4] === 'Restricted User' && <>
+                      <p className='text-[#EA5455] bg-[#ea54551f] py-1 px-2 rounded-2xl font-medium'>{items.assignedto[4]}</p>
+                      </>}
                     </td>
                     <td className="py-4 px-6">
                       {items.date}

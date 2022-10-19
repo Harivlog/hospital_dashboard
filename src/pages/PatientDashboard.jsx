@@ -104,7 +104,7 @@ const PatientDashboard = () => {
                                     </td>
                                     <td className="px-6 py-4 text-xs  text-right whitespace-nowrap">
                                         <a
-                                            className="text-green-500 font-semibold hover:text-white hover:bg-text-primary hover:border-none border border-gray-2 py-2 px-3 rounded-2xl"
+                                            className="text-black font-semibold hover:text-white hover:bg-text-primary hover:border-none border border-gray-2 py-2 px-3 rounded-2xl"
                                             href="#"
                                         >
                                             VIEW RESULT

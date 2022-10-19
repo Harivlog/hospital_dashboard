@@ -344,37 +344,37 @@ export const AdminRolesData = [
     },
     {
         name : 'Add & Remove Users',
-        assignedto : ['Administrator'],
+        assignedto : ['Administrator' ],
         date : '14 Oct 2021, 10:20 AM',
          
     },
     {
         name : 'Project Planning',
-        assignedto : ['Administrator', 'User'],
+        assignedto : ['Administrator', '','User'],
         date : '14 May 2021, 12:10 PM',
          
     },
     {
         name : 'Manage Email Sequences',
-        assignedto : ['Administrator', 'User', 'Support'],
+        assignedto : ['Administrator','', 'User', 'Support'],
         date : '23 Aug 2021, 2:00 PM',
          
     },
     {
         name : 'Client Communication',
-        assignedto :['Administrator', 'User', 'Support'],
+        assignedto :['Administrator','', 'User', 'Support'],
         date : '15 Apr 2021, 11:30 AM',
          
     },
     {
         name : 'Only View',
-        assignedto : ['Administrator', 'Restricted User'],
+        assignedto : ['Administrator','', '', '', 'Restricted User'],
         date : '04 Dec 2021, 8:15 PM',
          
     },
     {
         name : 'Financial Management',
-        assignedto : ['Administrator', 'Support'],
+        assignedto : ['Administrator','','', 'Support'],
         date : '25 Feb 2021, 10:30 AM',
          
     },{
@@ -470,7 +470,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user10.png',
         username : 'Sweden',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Subscriber',
         roleIcon : '/public/assets/icons/user.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -480,7 +480,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user11.png',
         username : 'Matilda Robertson',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Admin',
         roleIcon : '/public/assets/icons/redIcon.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -490,7 +490,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user12.png',
         username : 'French Southern Territories',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Editor',
         roleIcon : '/public/assets/icons/pen.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -500,7 +500,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user13.png',
         username : 'Martha Barnes',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Subscriber',
         roleIcon : '/public/assets/icons/user.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -530,7 +530,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user16.png',
         username : 'Lawrence Walton',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Author',
         roleIcon : '/public/assets/icons/orangeSetting.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -540,7 +540,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user17.png',
         username : 'Mable Fernandez',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Subscriber',
         roleIcon : '/public/assets/icons/user.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',
@@ -550,7 +550,7 @@ export const AdminRolesMainData = [
         img : '/assets/images/user18.png',
         username : 'Gregory Maldonado',
         email : 'wiwlirug@talgajup.co.uk',
-        role : 'Maintainer',
+        role : 'Admin',
         roleIcon : '/public/assets/icons/orangeSetting.png',
         plan : 'Enterprise',
         billing : 'Auto Debit',

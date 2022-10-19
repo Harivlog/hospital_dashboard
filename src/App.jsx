@@ -26,10 +26,14 @@ function App() {
               <Route path="/blog" element={<Blog/>} />
               <Route path="/hospital-package" element={<HospitalsPackage/>} />
                 <Route path="/facilities" element={<Facilities/>} />
-              <Route path="/admin-roles" element={<AdminRolesMain/>} />
+              <Route path="/admin-roles" >
+                <Route index element={<AdminRolesMain/>}/>
+              <Route path="admin-roles" element={<AdminRoles/>} />
+
+              </Route>
               <Route path="/blog" element={<Blog/>} />
               <Route path="/settings" element={<Settings/>} />
-                     <Route path="/logout" element={<LogOut/>} />
+              <Route path="/logout" element={<LogOut/>} />
               <Route path="/settings" element={<Settings/>} />
             </Routes>
           

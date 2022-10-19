@@ -49,7 +49,7 @@ export const Account = [
     {
         img : 'assets/icons/admin.png',
         title : 'Add Admin',
-        links : '',
+        links : '/admin-roles',
     },{
         img : 'assets/icons/shutdown.png',
         title : 'Logout',
