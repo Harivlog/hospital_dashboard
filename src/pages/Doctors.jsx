@@ -7,7 +7,7 @@ const Doctors = () => {
         <div className='font-Montserrat'>
             <div className="my-3">
                 <h3 className='text-text-red-1 text-xl font-bold'>Doctors</h3>
-                <div className="flex my-3">
+                <div className="flex my-3 justify-center items-center">
                     <div className="flex items-center mx-3">
                         <label htmlFor="" className='text-xs font-bold mr-2'>SHOW</label>
                         <select className='text-gray-4 placeholder:text-sm w-[100%] py-[0.38rem] px-3 border-2 border-gray-3 rounded-md outline-none' name="" id="">
@@ -46,7 +46,7 @@ const Doctors = () => {
                         <button className="border-2 border-gray-3 py-[0.55rem] font-semibold rounded-r-md w-[6rem] text-xs hover:bg-text-red-1 hover:text-white hover:border-0">Women</button>
                     </div>
                 </div>
-                <div className="flex flex-wrap gap-x-8 gap-y-4 p-3">
+                <div className="flex justify-center items-center flex-wrap gap-x-8 gap-y-4 p-3">
                     {
                         DoctorAppointment.map((items, index) => (
                             <div key={index} className="border border-gray-2 w-[27%] rounded-lg px-5 p-t-0">
