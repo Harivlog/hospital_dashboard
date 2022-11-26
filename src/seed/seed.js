@@ -906,3 +906,85 @@ export const calendarData = [
     },
 
   ]
+ export const galleryFilterData = [
+    {
+        id : 1,
+        image : '/public/assets/images/filter1.png',
+        testCategory : 'CT Scan',
+        price : 'N10, 000',
+        category : 'Imaging',
+         
+    },
+    {
+        id : 2,
+        image : '/public/assets/images/filter2.png',
+        testCategory : 'Malaria Test',
+        price : 'N5000',
+        category : 'Biopsy',
+         
+    },
+    {
+        id : 3,
+        image : '/public/assets/images/filter3.png',
+        testCategory : 'Widal Test',
+        price : 'N3000',
+        category : 'Biofluid',
+         
+    },
+    {
+        id : 4,
+        image : '/public/assets/images/filter4.png',
+        testCategory : 'PCV Test',
+        price : 'N20, 000',
+        category : 'Biofluid',
+         
+    },
+    {
+        id : 5,
+        image : '/public/assets/images/filter5.png',
+        testCategory : 'Covid 19 Test',
+        price : 'N50, 000',
+        category : 'Biofluid',
+         
+    },
+    {
+        id : 6,
+        image : '/public/assets/images/filter3.png',
+        testCategory : 'Pregnancy Test ',
+        price : 'N10, 000',
+        category : 'Biofluid',
+         
+    },
+    {
+        id : 7,
+        image : '/public/assets/images/filter2.png',
+        testCategory : 'CT Scan',
+        price : 'N10, 000',
+        category : 'Imaging',
+         
+    },
+    {
+        id : 8,
+        image : '/public/assets/images/filter2.png',
+        testCategory : 'CT Scan',
+        price : 'N10, 000',
+        category : 'Covid',
+         
+    },
+    {
+        id : 9,
+        image : '/public/assets/images/filter3.png',
+        testCategory : 'CT Scan',
+        price : 'N10, 000',
+        category : 'Imaging',
+         
+    },
+    {
+        id : 10,
+        image : '/public/assets/images/filter2.png',
+        testCategory : 'CT Scan',
+        price : 'N10, 000',
+        category : 'Packages',
+         
+    },
+ ]

@@ -15,5 +15,6 @@ export {default as HospitalPackageEdit} from './HospitalPackageEdit'
 export {default as EditFacilities} from './EditFacilities'
 export {default as CalendarPage} from './CalendarPage'
 export {default as AdminPage} from './AdminPage'
-
-
+export {default as Banner} from './Banner'
+export {default as CreateTest} from './CreateTest'
+export {default as HomeTesting} from './HomeTesting'
