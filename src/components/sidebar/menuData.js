@@ -20,6 +20,11 @@ export const MenuData = [
         title : 'Results',
         links : '/patients-dashboard',
     },
+    // {
+    //     img : 'assets/icons/clipBoard.png',
+    //     title : 'Home Testing',
+    //     links : '/patients-dashboard',
+    // },
     {
         img : 'assets/icons/chat.png',
         title : 'Chat',
@@ -32,7 +37,7 @@ export const MenuData = [
     },
     {
         img : 'assets/icons/foodPackage.png',
-        title : 'Food Package',
+        title : 'Hospital Package',
         links : '/hospital-package',
     },{
         img : 'assets/icons/facility.png',
